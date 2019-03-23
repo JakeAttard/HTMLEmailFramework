@@ -3,6 +3,7 @@ body,
 .body {
   background: #E4E5EA;
   background-color: #E4E5EA;
+  padding-bottom: 300px;
 }
 
 .header {
@@ -254,5 +255,16 @@ body,
         padding-bottom: 10px;
       }
     }
+  }
+}
+
+.footerTop {
+  background: #222D37;
+  background-color: #222D37;
+  color: white;
+
+  & > tbody > tr > th {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
