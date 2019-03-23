@@ -301,6 +301,7 @@ body,
 
     img {
       height: 40px;
+      width: 120px;
       display: block;
       margin: 0 auto;
     }
@@ -312,6 +313,18 @@ body,
 }
 
 .footerSocial {
+  background: #14181C;
+  background-color: #14181C;
+
+  & > tbody > tr > th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 
   .logoSection {
 
@@ -324,6 +337,8 @@ body,
 
     img {
       width: 32px;
+      display: block;
+      margin: 0 auto;
     }
   }
 }
