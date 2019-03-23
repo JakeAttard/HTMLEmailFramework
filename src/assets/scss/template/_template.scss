@@ -264,7 +264,37 @@ body,
   color: white;
 
   & > tbody > tr > th {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  th {
+    padding-bottom: 0;
+  }
+
+  .callToAction {
+    display: block;
+    font-size: 16px;
+  }
+
+  .info {
+    display: block;
+    font-size: 12px;
+  }
+
+  .infoSection > table > tbody > tr > th {
+    padding-left: 10px;
+    color: white;
+  }
+
+  .storeLogos {
+
+    img {
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
