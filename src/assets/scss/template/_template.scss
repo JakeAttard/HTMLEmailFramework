@@ -283,18 +283,22 @@ body,
   .callToAction {
     display: block;
     font-size: 16px;
-    hyphens: none
+    hyphens: none;
+    color: white;
+    padding-left: 10px;
   }
 
   .info {
     display: block;
     font-size: 12px;
     hyphens: none;
+    color: white;
+    padding-left: 10px;
   }
 
   .infoSection > table > tbody > tr > th {
-    padding-left: 10px;
-    color: white;
+    padding-left: 10px !important;
+    color: white !important;
   }
 
   .storeLogos {
@@ -304,6 +308,8 @@ body,
       width: 120px;
       display: block;
       margin: 0 auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
 
     & > table > tbody > tr > th > table > tbody > tr > th {
