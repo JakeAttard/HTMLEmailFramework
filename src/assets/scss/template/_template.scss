@@ -352,3 +352,42 @@ body,
     }
   }
 }
+
+.footerMenu {
+  background: #14181C;
+  background-color: #14181C;
+  border-bottom: 1px solid #2D3E4B;
+  border-top: 1px solid #2D3E4B;
+
+  .columns {
+    padding-bottom: 5px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 5px;
+
+    a {
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+
+      .icons {
+        width: 20px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+
+    th {
+      text-align: center;
+    }
+
+    .menuDivider {
+      display: block; 
+      height: 20px; 
+      width: 1px; 
+      background: #2D3E4B; 
+      background-color: #2D3E4B;
+    }
+  }
+}
