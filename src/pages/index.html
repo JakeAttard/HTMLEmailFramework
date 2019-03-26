@@ -7,13 +7,15 @@ subject: Great Deals Today
   <row class="dealOfDay">
     <columns>
       <h2>Deal of the Day</h2>
-      <img src="{{root}}/assets/img/kayak_files/ireland.png">
-      <p>Ireland: 8 days with air, hotel and car rental. Use promo code CFDL11 to save. Price reflects NYC departure, other cities available.</p>
-      <span class="saveAmount">Save $110 with code</span>
-      <span class="tinyInfo">Gate 1 Travel</span>
-      <span class="price">$649+</span>
+      <img src="{{kayakEmail.dealOfTheDay.image}}">
+      <p>
+        {{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}
+      </p>
+      <span class="saveAmount">{{kayakEmail.dealOfTheDay.saveAmount}}</span>
+      <span class="tinyInfo">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
+      <span class="price">${{kayakEmail.dealOfTheDay.price}}+</span>
       <center>
-        <a href="#" class="button">See Deal</a>
+        <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Deal</a>
       </center>
     </columns>
   </row>
